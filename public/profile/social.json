@@ -1,0 +1,28 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://linkedin.com/in/shankar-mathesh"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/shankarmadeshvaran"
+        },
+		{
+            "network" : "medium",
+            "href": "https://shankarmadeshvaran.medium.com"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:iamshankar11597@gmail.com"
+        },
+		{
+            "network" : "twitter",
+            "href": "https://twitter.com/devinmaking"
+        },
+		{
+            "network" : "stackoverflow",
+            "href": "https://stackoverflow.com/users/10873771"
+        }
+    ]
+}

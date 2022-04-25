@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "August 2014 - April 2018",
+            "cardTitle": "B.E, Computer Science and Engineering ",
+            "cardSubtitle":"Sri Ramakrishna Engineering College, Coimbatore, Tamilnadu",
+            "cardDetailedText": "CGPA - 7.1",
+            "icon" : {
+                "src": "images/education/srec.jpeg"
+            }
+        },
+        {
+            "title": "March 2014",
+            "cardTitle": "Higher Secondary School",
+            "cardSubtitle":"Nalandas Higher Secondary School",
+            "cardDetailedText": "Marks - 96%"
+        }
+    ]
+}

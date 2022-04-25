@@ -1,0 +1,44 @@
+{
+    "logo" : {
+        "source": "images/logo.jpg",
+        "height" : 45,
+        "width" : 50
+    },
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/"
+        },
+        {
+            "title": "About",
+            "href": "/about"
+        },
+        {
+            "title": "Skills",
+            "href": "/skills"
+        },
+        {
+            "title": "Education",
+            "href": "/education"
+        },
+        {
+            "title": "Experience",
+            "href": "/experience"
+        },
+        {
+            "title": "Projects",
+            "href": "/projects"
+        },
+		{
+            "title": "Blog",
+            "href": "https://shankarmadeshvaran.medium.com",
+            "type": "link"
+        },
+        {
+            "title": "Resume",
+            "href": "https://drive.google.com/file/d/1f6Hf1z3Ba2V2QktC6_ZSD5a54__8zcgV/view?usp=sharing",
+            "type": "link"
+        }
+    ]
+
+}
