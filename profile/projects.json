@@ -1,0 +1,129 @@
+{
+    "projects" : [
+		{
+            "title": "Movie Trailer App",
+            "bodyText": " - Movie Trailer app shows the latest movies trailers based on different genres using **SwiftUI**. \n - I have also integrated **UIKit viewcontroller and views** into **SwiftUI** project using UIViewControllerRepresentable and UIViewRepresentable",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/shankarmadeshvaran/Movie_Trailers_SwiftUI"
+                },
+				{
+                    "text": "Demo",
+                    "href": "https://github.com/shankarmadeshvaran/Movie_Trailers_SwiftUI/blob/master/ScreenShots/Movie_Trailer.gif"
+                },
+				{
+					"text":"Article",
+					"href":"https://shankarmadeshvaran.medium.com/building-movie-trailer-app-using-swiftui-5d4dc5497462"
+				}
+            ],
+            "tags" : [
+                "iOS",
+                "SwiftUI",
+                "Swift",
+				"Collection",
+				"PageController"
+            ]
+        },
+		{
+            "title": "Tasks App",
+            "bodyText": " - Tasks is ToDo app developed using **SwiftUI** and **Coredata**. \n - Have features like **Add, Delete, Rearrange and send notification**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/shankarmadeshvaran/SwiftUI_Tasks"
+                },
+				{
+					"text":"Demo",
+					"href":"https://github.com/shankarmadeshvaran/SwiftUI_Tasks/blob/master/ToDo-tasks.gif"
+				}
+            ],
+            "tags" : [
+                "iOS",
+                "SwiftUI",
+                "CoreData",
+                "Swift",
+                "CRUD Operation"
+            ]
+        },
+		{
+            "title": "Settings App",
+            "bodyText": " - Settings App in iPhoneXR using **SwiftUI** concepts. \n - I have also used **UIKit's Activity indicator** into SwiftUI project.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/shankarmadeshvaran/SettingsAppInSwiftUI"
+                },
+				{
+					"text":"Demo",
+					"href":"https://github.com/shankarmadeshvaran/SettingsAppInSwiftUI/blob/master/Settings.gif"
+				},
+				{
+					"text":"Article",
+					"href":"https://medium.com/a-developer-in-making/recreating-settings-app-using-swiftui-concepts-e034d2a95ed1"
+				}
+            ],
+            "tags" : [
+                "iOS",
+                "SwiftUI",
+                "Swift",
+				"UIActivityIndicator"
+            ]
+        },
+		{
+            "title": "Puzzle App",
+            "bodyText": " - Puzzle app that lets you solve a puzzle by rearranging small images to form large image. \n - I have developed this with increasing in difficulty based on solving each puzzle.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/shankarmadeshvaran/Puzzle"
+                },
+				{
+					"text":"Demo",
+					"href":"https://github.com/shankarmadeshvaran/Puzzle/blob/master/puzzle.gif"
+				},
+				{
+					"text":"Article",
+					"href":"https://medium.com/a-developer-in-making/puzzle-game-using-ui-drag-drop-apis-in-swift-4bd9d29f6c20"
+				}
+            ],
+            "tags" : [
+                "iOS",
+                "SwiftUI",
+                "Swift",
+				"UIActivityIndicator"
+            ]
+        },
+        {
+            "title": "Chat App",
+            "bodyText": "- An **React-Native App** that allows users to send texts in real time.\n - Uses **Firebase** database to store texts.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/shankarmadeshvaran"
+                }
+            ],
+            "tags" : [
+                "React-Native",
+                "Javascript",
+                "Firebase"
+            ]
+        },
+        {
+            "title": "MVVM Sample App",
+            "bodyText": "- An iOS App that loads data from mock API\n - Uses the **MVVM** architecture.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/shankarmadeshvaran"
+                }
+            ],
+            "tags" : [
+                "iOS",
+                "Swift",
+                "MVVM",
+                "Xcode"
+            ]
+        }
+    ]
+}
