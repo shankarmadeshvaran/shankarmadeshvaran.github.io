@@ -100,12 +100,16 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/shankarmadeshvaran"
+                    "href": "https://github.com/shankarmadeshvaran/react-native-chatApp"
+                },
+				{
+                    "text": "Demo",
+                    "href": "https://github.com/shankarmadeshvaran/react-native-chatApp/blob/main/Demo/chatAppDemo.gif"
                 }
             ],
             "tags" : [
                 "React-Native",
-                "Javascript",
+                "Typescript",
                 "Firebase"
             ]
         },
