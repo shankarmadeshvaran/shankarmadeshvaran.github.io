@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
@@ -13,8 +13,10 @@ function App() {
   window.matchMedia = null;
   const darkMode = useDarkMode(true);
 
+  const contextValue = useMemo(() => ({ darkMode }), [darkMode]);
+
   return (
-    <AppContext.Provider value={{ darkMode }}>
+    <AppContext.Provider value={contextValue}>
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">

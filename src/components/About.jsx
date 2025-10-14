@@ -31,37 +31,51 @@ function About() {
       <div className="section-content-container">
         <Container>
           <Fade>
-            <Row>
-              <Col style={styles.introTextContainer}>
-                <p>
-                  Hello! I'm <strong>Shankar</strong>, a{" "}
-                  <strong>Software Development Engineer</strong> from Tamilnadu,
-                  India.
-                </p>
-                <p>
-                  An experienced mobile application developer who has a track
-                  record of successfully developing iOS apps that are both
-                  well-received and commercially viable. Have published{" "}
-                  <strong>5+</strong> apps on Play Store with over{" "}
-                  <strong>2 million</strong> combined downloads.
-                </p>
-                <p>
-                  I have experience in working with{" "}
-                  <strong>Front-End Development (React)</strong> who has
-                  successfully developed <strong>3+</strong> apps for multiple
-                  organization/clients.
-                </p>
-                <p>
-                  I enjoy working on side projects to upskill myself and learn
-                  new stuff. Not only skilled in{" "}
-                  <strong>iOS App Development</strong>, but also proficient in{" "}
-                  <strong>SwiftUI</strong>,{" "}
-                  <strong>Cross Platform App Development</strong> and{" "}
-                  <strong>Front-end development</strong>.
-                </p>
+            <Row className="align-items-center">
+              <Col md={8} sm={12} className="about-text-col">
+                <div style={styles.introTextContainer} className="about-text">
+                  <p>
+                    Hello! I'm <strong>Shankar</strong>, a{" "}
+                    <strong>Senior iOS & Mobile Engineer</strong> with{" "}
+                    <strong>7+ years</strong> of experience building scalable mobile
+                    applications from Tamil Nadu, India.
+                  </p>
+                  <p>
+                    Currently a <strong>Software Development Engineer II</strong>{" "}
+                    at <strong>Mygate</strong> — India's #1 Community Management{" "}
+                    Platform serving <strong>4M+ households</strong> and{" "}
+                    <strong>25K+ societies</strong> with a{" "}
+                    <strong>4.7 App Store rating</strong>. I specialize in{" "}
+                    <strong>iOS</strong> and <strong>Flutter mobile app development</strong>{" "}
+                    with <strong>Flutter Add-to-App integration</strong>, performance
+                    optimization, and enterprise-scale mobile architectures.
+                  </p>
+                  <p>
+                    My key achievements include reducing{" "}
+                    <strong>app size by 40%</strong> and{" "}
+                    <strong>launch time by 50%</strong> while maintaining{" "}
+                    <strong>99.9% crash-free users</strong>. I've architected{" "}
+                    <strong>IoT integrations</strong>, built{" "}
+                    <strong>real-time notification systems</strong> for 1.2M+ MAUs,
+                    and automated <strong>CI/CD pipelines using Jenkins</strong>{" "}
+                    for seamless deployments.
+                  </p>
+                  <p>
+                    Expert in <strong>Swift</strong>, <strong>SwiftUI</strong>,{" "}
+                    <strong>Flutter</strong>, and{" "}
+                    <strong>cross-platform development</strong> with experience
+                    publishing <strong>20+ mobile apps</strong> throughout my career.
+                    I've scaled apps from 1M to 3.5M+ MAUs, mentored engineering
+                    teams, and received the <strong>Cultural Champion Award (2024)</strong>{" "}
+                    for technical leadership. Passionate about mobile innovation
+                    and performance at scale.
+                  </p>
+                </div>
               </Col>
-              <Col style={styles.introImageContainer}>
-                <img src={profileImg} alt="profile" />
+              <Col md={4} sm={12} className="about-image-col">
+                <div style={styles.introImageContainer} className="about-image">
+                  <img src={profileImg} alt="profile" />
+                </div>
               </Col>
             </Row>
           </Fade>

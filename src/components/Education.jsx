@@ -39,6 +39,12 @@ function Education(props) {
     }
   }, []);
 
+  // Force re-render when theme changes
+  useEffect(() => {
+    // This effect will trigger when theme changes
+    console.log('Theme changed, re-rendering Education component');
+  }, [theme]);
+
   return (
     <>
       <Header title={header} />
@@ -47,6 +53,7 @@ function Education(props) {
           <div style={{ width }} className="section-content-container">
             <Container>
               <Chrono
+                key={`${theme.background}-${theme.chronoTheme.cardBgColor}`}
                 hideControls
                 allowDynamicUpdate
                 useReadMore={false}
@@ -59,6 +66,7 @@ function Education(props) {
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
                   titleColor: theme.chronoTheme.titleColor,
+                  titleColorActive: 'white',
                 }}
               >
                 <div className="chrono-icons">

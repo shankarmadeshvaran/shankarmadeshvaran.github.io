@@ -116,6 +116,20 @@ section.timeline-card-content div.card-description > p {
     letter-spacing: .1em;
     text-indent: .2em;
   }
+
+  /* Tablet About section */
+  .about-text {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .about-image {
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 280px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -140,11 +154,84 @@ section.timeline-card-content div.card-description > p {
   .navbar__link:hover::after {
     width: 0;
   }
+
+  /* Mobile typography improvements */
+  .header {
+    font-size: 2em !important;
+  }
+
+  .Typewriter__wrapper {
+    font-size: x-large !important;
+  }
+
+  .Typewriter__cursor {
+    font-size: x-large !important;
+  }
+
+  /* Mobile section spacing */
+  .section-content-container {
+    padding: 0 15px;
+  }
+
+  /* About section mobile improvements - only apply on mobile */
+  .about-text-col {
+    order: 2 !important;
+  }
+  
+  .about-image-col {
+    order: 1 !important;
+  }
+  
+  .about-text {
+    font-size: 1rem !important;
+    text-align: left !important;
+    margin-bottom: 20px;
+  }
+
+  .about-image {
+    text-align: center !important;
+    margin-bottom: 30px;
+  }
+
+  .about-image img {
+    max-width: 200px !important;
+    height: auto !important;
+    border-radius: 10px;
+  }
 }
 
 .header {
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 25px;
+}
+
+/* Desktop About section defaults */
+@media (min-width: 769px) {
+  .about-text-col {
+    order: 1;
+  }
+  
+  .about-image-col {
+    order: 2;
+  }
+  
+  .about-text {
+    text-align: left !important;
+    font-size: 1.2em !important;
+  }
+
+  .about-image {
+    text-align: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .about-image img {
+    max-width: 90% !important;
+    height: auto !important;
+    border-radius: 10px;
+  }
 }
 
