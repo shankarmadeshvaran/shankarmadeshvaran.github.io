@@ -42,7 +42,6 @@ function Education(props) {
   // Force re-render when theme changes
   useEffect(() => {
     // This effect will trigger when theme changes
-    console.log('Theme changed, re-rendering Education component');
   }, [theme]);
 
   return (

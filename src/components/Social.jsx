@@ -1,5 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { ThemeContext } from 'styled-components';
+import React, { useEffect, useState } from 'react';
 import {
   FaLinkedin,
   FaGithub,
@@ -69,7 +68,6 @@ const getNetworkColor = (network) => {
 };
 
 function Social() {
-  const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -78,15 +76,12 @@ function Social() {
     })
       .then((res) => res.json())
       .then((res) => {
-        console.log('Social data loaded:', res);
         setData(res);
       })
-      .catch((err) => {
-        console.error('Error loading social data:', err);
+      .catch(() => {
+        // Handle error silently or use a proper error handling solution
       });
   }, []);
-
-  console.log('Social component rendered, data:', data, 'theme:', theme);
 
   return (
     <div className="social">
